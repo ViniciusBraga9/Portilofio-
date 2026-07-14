@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vinicius | Portfólio</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+   
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!--NAVBAR -->
+    <div class="cabecalho">
+        <nav class="navbar-custom container-fluid d-flex align-items-center justify-content-between">
+            <a href="#home" class="logo">Vinicius<span class="logo-ponto">.</span>dev</a>
+
+            <input type="checkbox" id="nav-toggle" class="nav-toggle-check">
+            <label for="nav-toggle" class="nav-toggle-label" aria-label="Abrir menu">
+                <i class="bi bi-list"></i>
+            </label>
+
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link-item">Home</a></li>
+                <li><a href="#sobre" class="nav-link-item">Sobre</a></li>
+                <li><a href="#habilidades" class="nav-link-item">Habilidades</a></li>
+                <li><a href="#projetos" class="nav-link-item">Projetos</a></li>
+                <li><a href="#contato" class="nav-link-item">Contato</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <div class="conteudo-principal">
+        <!-- ===== HOME / HERO ===== -->
+        <div id="home" class="secao-home">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-6">
+                        <p class="home-eyebrow">Olá, eu sou</p>
+                        <h1 class="home-titulo">Vinicius</h1>
+                        <h2 class="home-subtitulo">Desenvolvedor <span class="destaque">Back-end</span></h2>
+                        <p class="home-texto">Construindo projetos práticos enquanto me preparo para uma vaga de estágio em back-end.</p>
+                        <div class="home-botoes">
+                            <a href="#projetos" class="botao botao-primario">Ver projetos</a>
+                            <a href="#contato" class="botao botao-secundario">Contato</a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6">
+                        <!-- janela de terminal-->
+                        <div class="terminal-janela">
+                            <div class="terminal-topo">
+                                <span class="terminal-bolinha bolinha-vermelha"></span>
+                                <span class="terminal-bolinha bolinha-amarela"></span>
+                                <span class="terminal-bolinha bolinha-verde"></span>
+                                <span class="terminal-titulo">vinicius@portfolio: ~</span>
+                            </div>
+                            <div class="terminal-corpo">
+                                <p class="terminal-linha"><span class="terminal-prompt">$</span> git</p>
+                                <p class="terminal-resposta">vinicius_dev</p>
+                                <p class="terminal-linha"><span class="terminal-prompt">$</span> git objetivo.txt</p>
+                                <p class="terminal-resposta">Estágio em desenvolvimento back-end<span class="terminal-cursor">_</span></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- ===== SOBRE ===== -->
+        <div id="sobre" class="secao secao-sobre">
+            <div class="container">
+                <p class="secao-eyebrow">Sobre</p>
+                <h2 class="secao-titulo">Um pouco sobre mim</h2>
+
+                <div class="row align-items-center sobre-container">
+                    <div class="col-lg-5">
+                        <!-- PREENCHER DEPOIS: colocar foto real em assets/img/perfil.jpg -->
+                        <div class="sobre-foto">
+                            <i class="bi bi-person"></i>
+                        </div>
+                    </div>
+                    <div class="col-lg-7">
+                        <p class="sobre-texto">
+                          Sou estudante de Sistemas de Informação com foco em Desenvolvimento Back-end e Engenharia de Software. 
+                          Busco aprimorar continuamente minhas habilidades em Java, SQL e desenvolvimento de aplicações,
+                           aplicando boas práticas de programação na criação de soluções eficientes e escaláveis.
+
+                        </p>
+                        <p class="sobre-texto">
+                          Este portfólio reúne projetos desenvolvidos durante minha formação e estudos, envolvendo Java, SQL, HTML e CSS. 
+                          Cada projeto representa a aplicação prática dos conhecimentos adquiridos e demonstra minha evolução como desenvolvedor, 
+                          sempre buscando escrever código organizado, funcional e de qualidade.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- ===== HABILIDADES ===== -->
+        <div id="habilidades" class="secao secao-habilidades">
+            <div class="container">
+                <p class="secao-eyebrow">Habilidades</p>
+                <h2 class="secao-titulo">Tecnologias que uso</h2>
+
+                <div class="row habilidades-grupos">
+                    <div class="col-md-6">
+                        <h3 class="habilidades-subtitulo"><Fieldset>Back-end</Fieldset></h3>
+                        <div class="habilidades-lista">
+                            <span class="habilidade-pill">Java</span>
+                            <span class="habilidade-pill">Python</span>
+                            <span class="habilidade-pill">Spring - framework</span>
+                            <span class="habilidade-pill">JavaScript</span>
+                            <span class="habilidade-pill">SQL</span>
+                            <span class="habilidade-pill">Git e GitHub</span>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <h3 class="habilidades-subtitulo">Em estudo / Back-end</h3>
+                        <div class="habilidades-lista">
+                            
+                            <span class="habilidade-pill pill-estudo">Lógica de programação</span>
+                            <span class="habilidade-pill pill-estudo">Banco de dados</span>
+                            <span class="habilidade-pill pill-estudo">Git &amp; GitHub</span>
+                            <span class="habilidade-pill pill-estudo">Spring</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- ===== PROJETOS ===== -->
+        <div id="projetos" class="secao secao-projetos">
+            <div class="container">
+                <p class="secao-eyebrow">Projetos</p>
+                <h2 class="secao-titulo">O que já construí</h2>
+
+                <div class="row g-4">
+                    <div class="col-md-4">
+                        <div class="card-projeto">
+                            <div class="card-projeto-topo">
+                                <i class="bi bi-code-slash"></i>
+                            </div>
+                            <div class="card-projeto-corpo">
+                                <h3 class="card-projeto-titulo">Sistema de funcionario</h3>
+                                <p class="card-projeto-texto">Desenvolvimento de um sistema de gestão de funcionários em Java, 
+                                  utilizando Programação Orientada a Objetos, tratamento de exceções e JOptionPane. 
+                                  A aplicação realiza o cadastro, consulta e cálculo automático de salários para funcionários CLT e PJ.</p>
+                                <div class="card-projeto-links">
+                                    <a href="https://github.com/ViniciusBraga9/SistemaFuncionarios.git" class="link-projeto">Ver projeto</a>
+                                    <a href="#" class="link-projeto">Código</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="card-projeto">
+                            <div class="card-projeto-topo">
+                                <i class="bi bi-code-slash"></i>
+                            </div>
+                            <div class="card-projeto-corpo">
+                                <h3 class="card-projeto-titulo">Sistema de Banco de Dados de uma biblioteca academica</h3>
+                                <p class="card-projeto-texto">Breve descrição do projeto e das tecnologias usadas.</p>
+                                <div class="card-projeto-links">
+                                    <a href="#" class="link-projeto">Ver projeto</a>
+                                    <a href="#" class="link-projeto">Código</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="card-projeto">
+                            <div class="card-projeto-topo">
+                                <i class="bi bi-code-slash"></i>
+                            </div>
+                            <div class="card-projeto-corpo">
+                                <h3 class="card-projeto-titulo">Nome do projeto</h3>
+                                <p class="card-projeto-texto">Breve descrição do projeto e das tecnologias usadas.</p>
+                                <div class="card-projeto-links">
+                                    <a href="#" class="link-projeto">Ver projeto</a>
+                                    <a href="#" class="link-projeto">Código</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- ===== CONTATO ===== -->
+        <div id="contato" class="secao secao-contato">
+            <div class="container">
+                <p class="secao-eyebrow">Contato</p>
+                <h2 class="secao-titulo">Vamos conversar</h2>
+
+                <div class="row contato-container">
+                    <div class="col-lg-5">
+                        <p class="contato-texto">Está com uma vaga de back-end e quer conversar? Me chama por aqui.</p>
+                        <ul class="contato-lista">
+                            <li><i class="bi bi-envelope"></i>viniciusaglay96@gmail.com</li>
+                            <li><i class="bi bi-linkedin"></i> linkedin.com/in/vincius-Aglay</li>
+                            <li><i class="bi bi-github"></i> github.com/ViniciusBraga9</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ===== RODAPÉ ===== -->
+    <div class="rodape">
+        <div class="container rodape-container">
+            <p class="rodape-titulo">vinicius<span class="logo-ponto">.</span>dev</p>
+            <div class="rodape-social">
+                <a href="www.linkedin.com/in/vincius-aglay-48895338b" class="rodape-icone"><i class="bi bi-linkedin"></i></a>
+                <a href="https://github.com/ViniciusBraga9" class="rodape-icone"><i class="bi bi-github"></i></a>
+                <a href="#" class="rodape-icone"><i class="bi bi-envelope"></i></a>
+            </div>
+            <p class="rodape-copy">&#169; 2026 Vinicius. Todos os direitos reservados.</p>
+        </div>
+    </div>
+
+</body>
+</html>
